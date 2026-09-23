@@ -50,6 +50,8 @@ eece655-assignment1/
 │       └── main.py             		# DNS server launcher
 │
 ├── attacker/                           # Offensive exploit scripts & exfiltration routines
+│   ├── generate_b64.py                 # Script used to make the base64 encoded version of the dnssniffer for deployment
+│   ├── dnssniffer.py                   # dnssniffer being deployed on Machine B to exfiltrate through telegram
 │   ├── attack_v1.py                    # Iteration 1: Login SQLi, OS Command Injection & QNAME Exfiltration
 │   └── attack_v2.py                    # Iteration 2: SSRF / Argument Pollution & EDNS0 Covert DNS Exfiltration
 │
